@@ -15,7 +15,7 @@ application:
       type: easylist
 
     - name: 'lingeringsound'
-      path: 'https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto.txt'
+      path: 'https://raw.githubusercontent.com/lingeringsound/adblock_auto/main/Rules/adblock_auto_lite.txt'
       type: easylist  
       
   # 输出配置
