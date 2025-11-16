@@ -39,6 +39,10 @@ application:
 
     - name: '茯苓规则'
       path: 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Develop/FuLingRules/FuLingBlockList.txt'
+      type: easylist
+
+    - name: '217heidai'
+      path: 'https://raw.githubusercontent.com/217heidai/adblockfilters/main/rules/adblockdnslite.txt'
       type: easylist  
       
   # 输出配置
@@ -50,7 +54,7 @@ application:
       Last Modified: ${date}
       Total Size: ${total}
       Homepage: https://github.com/chengzhouCR/AdBlock-Rules
-      Description: 自用的路由器去广告规则，规则较为精简，每日自动更新。上游规则源：AWAvenue Ads Rule、jiekouAD、halflife-list、不是DD啊、海哥规则、晴雅规则、lingeringsound规则、茯苓规则。
+      Description: 自用的路由器去广告规则，规则较为精简，每日自动更新。上游规则源：AWAvenue Ads Rule、jiekouAD、halflife-list、不是DD啊、海哥规则、晴雅规则、lingeringsound规则、茯苓规则、217heidai规则精简版。
       
     files:
       - name: smartdns.conf    
