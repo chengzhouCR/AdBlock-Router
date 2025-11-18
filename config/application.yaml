@@ -25,14 +25,6 @@ application:
       path: 'https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/DD-AD.txt'
       type: easylist
 
-    - name: '海哥拦截规则'
-      path: 'https://raw.githubusercontent.com/2771936993/HG/main/hg1.txt'
-      type: easylist  
-
-    - name: '晴雅拦截规则'
-      path: 'http://rssv.cn/adguard/api.php?type=black'
-      type: easylist
-
     - name: '茯苓拦截列表'
       path: 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt'
       type: easylist 
@@ -58,7 +50,7 @@ application:
       Last Modified: ${date}
       Total Size: ${total}
       Homepage: https://github.com/chengzhouCR/AdBlock-Rules
-      Description: 自用的路由器去广告规则，每日自动更新，上游规则：AWAvenue Ads Rule、adblockfilters、DD-AD规则、海哥拦截规则、晴雅拦截规则、茯苓广告规则、who520规则。
+      Description: 自用的路由器去广告规则，每日自动更新，上游规则：AWAvenue Ads Rule、adblockfilters、DD-AD规则、茯苓广告规则、who520规则。
       
     files:
       - name: smartdns.conf    
