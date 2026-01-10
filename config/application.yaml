@@ -19,22 +19,6 @@ application:
   
     - name: 'DD-AD规则'
       path: 'https://raw.githubusercontent.com/afwfv/DD-AD/refs/heads/release/DD-AD.txt'
-      type: easylist
-
-    - name: '茯苓拦截列表'
-      path: 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingBlockList.txt'
-      type: easylist 
-
-    - name: '茯苓允许列表'
-      path: 'https://raw.githubusercontent.com/Kuroba-Sayuki/FuLing-AdRules/Master/FuLingRules/FuLingAllowList.txt'
-      type: easylist
-
-    - name: 'who520-黑名单'
-      path: 'https://raw.githubusercontent.com/qq5460168/dangchu/main/black.txt'
-      type: easylist
-
-    - name: 'who520-白名单'
-      path: 'https://raw.githubusercontent.com/qq5460168/dangchu/main/white.txt'
       type: easylist  
       
   # 输出配置
@@ -46,7 +30,7 @@ application:
       Last Modified: ${date}
       Total Size: ${total}
       Homepage: https://github.com/chengzhouCR/AdBlock-Rules
-      Description: 自用的路由器去广告规则，每日自动更新，上游规则：AWAvenue Ads Rule、DD-AD规则、茯苓广告规则、who520规则。
+      Description: 自用的路由器去广告规则，每日自动更新，上游规则：AWAvenue Ads Rule、DD-AD规则。
       
     files:
       - name: smartdns.conf    
